@@ -95,3 +95,55 @@ article ol {
     padding-bottom: .2em;
   }
 }
+
+@media only screen and (min-width: 38em){
+
+  html {
+    line-height: 1.4;
+    font-size: 110%;
+  }
+
+  article {
+    padding-top: .5em;
+ }
+
+  header > p {
+    margin-bottom: 1.5em;
+ }
+
+  blockquote {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    line-height: 1.5;
+    font-size: 120%;
+    margin-bottom: 1.5em;
+  }
+
+  article {
+    margin-left: 4em;
+  }
+
+  blockquote {
+    margin: 0 auto;
+  }
+
+  article ol {
+    padding top: 1em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  article {
+    margin: 0 auto;
+  }
+}
