@@ -55,7 +55,7 @@ blockquote {
 }
 
 article ol {
-  padding-left: .9em;
+  margin-left: -1.75em;
 }
 
 .quote {
@@ -69,20 +69,17 @@ article ol {
   }
 
   header {
-    line-height: .3;
+    line-height: .25;
     padding-bottom: .5em;
-    padding-top: .5em;
   }
 
   article > p:last-child {
     padding-bottom: 1em;
-    padding-top: .09em;
   }
 
   article {
     padding: .75em;
-    padding-top: 0;
-    padding-bottom: .4em;
+    padding-top: .6em;
   }
 
   blockquote {
@@ -91,12 +88,12 @@ article ol {
   }
 
   article ol {
-    padding-top: .5em;
-    padding-bottom: .2em;
+    padding-top: .25em;
+    padding-bottom: .25em;
   }
 }
 
-@media only screen and (min-width: 38em){
+@media only screen and (min-width: 38em) {
 
   html {
     line-height: 1.4;
@@ -105,11 +102,11 @@ article ol {
 
   article {
     padding-top: .5em;
- }
+  }
 
   header > p {
     margin-bottom: 1.5em;
- }
+  }
 
   blockquote {
     margin: 0 auto;
@@ -133,7 +130,7 @@ article ol {
   }
 
   article ol {
-    padding top: 1em;
+    padding-top: 1em;
   }
 }
 
@@ -144,6 +141,6 @@ article ol {
   }
 
   article {
-    margin: 0 auto;
+    margin-left: 15em;
   }
 }
